@@ -18,13 +18,13 @@ twitter: 'isnessness'
 instagram: 'isnessness'
 #pinterest: 'mypinterest'
 #youtube: 'myyoutube'
-github-user: 'ugjka'
+github: 'ugjka'
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
 soundcloud: 'ugjka'
 #lastfm: ''
-stack-overflow: '2846959/ugjka'
+stackoverflow: '2846959/ugjka'
 dev: 'ugjka'
 #reddit: ''
 #rubygems: ''
@@ -32,12 +32,12 @@ dev: 'ugjka'
 #tumblr: 'mytumblr'
 #weibo: 'myweibo'
 #vk: 'myvk'
-blog_url: 'ugjka.net/blog'
+blog: 'ugjka.net/blog'
 email: 'esesmu@protonmail.com'
 #messenger: 'myfbchat'
 arch: 'bbs.archlinux.org/search.php?action=show_user_posts&user_id=80779'
 
-social-links-order: [github-user, dev, arch,facebook, twitter, stack-overflow, soundcloud, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+social-links-order: [github, dev, arch,facebook, twitter, stackoverflow, soundcloud, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog, email]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -87,7 +87,7 @@ social-links:
   - name: pinterest
     url-pattern: pinterest.com/__USERNAME__
 
-  - name: github-user
+  - name: github
     url-pattern: github.com/__USERNAME__
     icon-class: fab fa-2x fa-github
 
@@ -98,8 +98,9 @@ social-links:
   - name: codepen
     url-pattern: codepen.com/__USERNAME__
 
-  - name: stack-overflow
+  - name: stackoverflow
     url-pattern: stackoverflow.com/users/__USERNAME__
+    icon-class: fab fa-2x fa-stack-overflow
 
   - name: reddit
     url-pattern: reddit.com/user/__USERNAME__
@@ -150,13 +151,13 @@ social-links:
 
   - name: dev
     url-pattern: dev.to/__USERNAME__
-    icon-class: fas fa-2x fa-code
+    icon-class: fab fa-2x fa-dev
 
   - name: arch
     url-pattern: __USERNAME__
     icon-class: fas fa-2x fa-archway
 
-  - name: blog_url
+  - name: blog
     url-pattern: '__USERNAME__'
     icon-class: fas fa-2x fa-blog
 
