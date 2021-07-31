@@ -2,40 +2,42 @@
 remote_theme: epidrome/cover-card@main
 
 # Title and tag line
-title: 'My name'
-description: 'I am amazing.'
+title: 'ugjka'
+description: 'gopher, linuxer, advaitin, woodcutter'
 
 # Images
-avatar: 'avatar.jpg'
-background: 'background.jpg'
+avatar: 'avatar.png'
+background: 'background.png'
 favicon: 'favicon.ico'
 
 # Online profiles
 #dribbble: 'mydribbble'
-facebook: 'myfacebook'
-twitter: 'mytwitter'
+#facebook: 'myfacebook'
+twitter: 'isnessness'
 #linkedin: 'mylinkedin'
-instagram: 'myinsta'
+instagram: 'isnessness'
 #pinterest: 'mypinterest'
-youtube: 'myyoutube'
-github-user: 'mygithub'
+#youtube: 'myyoutube'
+github-user: 'ugjka'
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
-#soundcloud: ''
+soundcloud: 'ugjka'
 #lastfm: ''
-#stack-overflow: ''
+stack-overflow: '2846959/ugjka'
+dev: 'ugjka'
 #reddit: ''
 #rubygems: ''
 #medium:  ''
-tumblr: 'mytumblr'
-weibo: 'myweibo'
-vk: 'myvk'
-blog_url: 'myblog.blog.com'
-email: 'hello@example.com'
-messenger: 'myfbchat'
+#tumblr: 'mytumblr'
+#weibo: 'myweibo'
+#vk: 'myvk'
+blog_url: 'ugjka.net/blog'
+email: 'esesmu@protonmail.com'
+#messenger: 'myfbchat'
+arch: 'bbs.archlinux.org/search.php?action=show_user_posts&user_id=80779'
 
-social-links-order: [github-user, facebook, twitter, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
+social-links-order: [github-user, dev, arch,facebook, twitter, stack-overflow, soundcloud, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, blog_url, email]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -145,6 +147,14 @@ social-links:
 
   - name: quora
     url-pattern: www.quora.com/profile/__USERNAME__
+
+  - name: dev
+    url-pattern: dev.to/__USERNAME__
+    icon-class: fas fa-2x fa-code
+
+  - name: arch
+    url-pattern: __USERNAME__
+    icon-class: fas fa-2x fa-archway
 
   - name: blog_url
     url-pattern: '__USERNAME__'
