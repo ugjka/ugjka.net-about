@@ -37,10 +37,10 @@ email: 'esesmu@protonmail.com'
 #messenger: 'myfbchat'
 arch: 'bbs.archlinux.org/search.php?action=show_user_posts&user_id=80779'
 paypal: 'ugjka'
-root: 'ugjka.net'
+home: 'ugjka.net'
 hackernews: 'ugjka'
 
-social-links-order: [root, github, dev, arch, hackernews,facebook, twitter, stackoverflow, soundcloud, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, paypal, blog, email]
+social-links-order: [home, github, dev, arch, hackernews,facebook, twitter, stackoverflow, soundcloud, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, paypal, blog, email]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -177,6 +177,6 @@ social-links:
     url-pattern: news.ycombinator.com/user?id=__USERNAME__
     icon-class: fab fa-2x fa-hacker-news-square
 
-  - name: root
+  - name: home
     url-pattern: __USERNAME__
     icon-class: fas fa-2x fa-home
