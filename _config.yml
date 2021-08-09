@@ -34,14 +34,15 @@ dev: 'ugjka'
 #vk: 'myvk'
 blog: 'ugjka.net/blog'
 email: 'esesmu@protonmail.com'
-#messenger: 'myfbchat'
+messenger: 'feel.the.brahman'
 arch: 'bbs.archlinux.org/search.php?action=show_user_posts&user_id=80779'
 paypal: 'ugjka'
 home: 'ugjka.net'
 hackernews: 'ugjka'
 bandcamp: 'ugjka'
+reddit: 'ugjis'
 
-social-links-order: [home, github, dev, arch, hackernews,facebook, twitter, stackoverflow, bandcamp, soundcloud, instagram, tumblr, pinterest, linkedin, youtube, vk, weibo, dribbble, messenger, paypal, blog, email]
+social-links-order: [home, github, dev, arch, hackernews, twitter, reddit, stackoverflow, bandcamp, soundcloud, instagram, paypal, blog, messenger, email]
 
 # Yaml manifest of supported social links
 # Requirements:
