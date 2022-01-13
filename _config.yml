@@ -13,9 +13,9 @@ favicon: 'favicon.ico'
 # Online profiles
 #dribbble: 'mydribbble'
 #facebook: 'myfacebook'
-#twitter: 'isnessness'
+twitter: 'isnessness'
 #linkedin: 'mylinkedin'
-#instagram: 'isnessness'
+instagram: 'isnessness'
 #pinterest: 'mypinterest'
 #youtube: 'myyoutube'
 github: 'ugjka'
@@ -36,11 +36,12 @@ blog: 'ugjka.net/blog'
 email: 'esesmu@protonmail.com'
 #arch: 'bbs.archlinux.org/search.php?action=show_user_posts&user_id=80779'
 home: 'ugjka.net'
-#hackernews: 'ugjka'
+hackernews: 'ugjka'
 bandcamp: 'ugjka'
+kofi: 'ugjka'
 #reddit: 'ugjis'
 
-social-links-order: [home, github, dev, arch, hackernews, twitter, reddit, stackoverflow, bandcamp, soundcloud, instagram, paypal, blog, messenger, email]
+social-links-order: [home, kofi, github, dev, arch, hackernews, twitter, reddit, stackoverflow, bandcamp, soundcloud, instagram, paypal, blog, messenger, email]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -184,3 +185,7 @@ social-links:
   - name: home
     url-pattern: __USERNAME__
     icon-class: fas fa-2x fa-home
+
+  - name: kofi
+    url-pattern: ko-fi.com/__USERNAME__
+    icon-class: fas fa-2x fa-mug-hot
