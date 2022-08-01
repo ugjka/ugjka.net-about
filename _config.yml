@@ -12,10 +12,10 @@ favicon: 'favicon.ico'
 
 # Online profiles
 #dribbble: 'mydribbble'
-#facebook: 'myfacebook'
+facebook: 'feel.the.brahman'
 twitter: 'isnessness'
 #linkedin: 'mylinkedin'
-instagram: 'isnessness'
+#instagram: 'isnessness'
 #pinterest: 'mypinterest'
 #youtube: 'myyoutube'
 github: 'ugjka'
@@ -25,7 +25,7 @@ github: 'ugjka'
 soundcloud: 'ugjka'
 #lastfm: ''
 #stackoverflow: '2846959/ugjka'
-dev: 'ugjka'
+#dev: 'ugjka'
 #reddit: ''
 #rubygems: ''
 #medium:  ''
@@ -37,11 +37,14 @@ email: 'esesmu@protonmail.com'
 #arch: 'bbs.archlinux.org/search.php?action=show_user_posts&user_id=80779'
 home: 'ugjka.net'
 hackernews: 'ugjka'
-bandcamp: 'ugjka'
-kofi: 'ugjka'
-#reddit: 'ugjis'
+#bandcamp: 'ugjka'
+#kofi: 'ugjka'
+reddit: 'ice-schizo'
+spotify: '90bpwbwrqlfzb7st7ngv5sj2h'
+messenger: 'feel.the.brahman'
+paypal: 'ugjka'
 
-social-links-order: [home, kofi, github, dev, arch, hackernews, twitter, reddit, stackoverflow, bandcamp, soundcloud, instagram, paypal, blog, messenger, email]
+social-links-order: [home,facebook, messenger, kofi, github, dev, arch, hackernews, twitter, reddit, stackoverflow, bandcamp, soundcloud, spotify, instagram, paypal, blog, email]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -171,7 +174,7 @@ social-links:
     icon-class: far fa-2x fa-envelope-open
 
   - name: paypal
-    url-pattern: www.paypal.com/paypalme/__USERNAME__
+    url-pattern: paypal.me/__USERNAME__
     icon-class: fab fa-2x fa-paypal
 
   - name: hackernews
@@ -185,6 +188,10 @@ social-links:
   - name: home
     url-pattern: __USERNAME__
     icon-class: fas fa-2x fa-home
+  
+  - name: spotify
+    url-pattern: open.spotify.com/user/__USERNAME__
+    icon-class: fab fa-2x fa-spotify
 
   - name: kofi
     url-pattern: ko-fi.com/__USERNAME__
