@@ -22,9 +22,7 @@ body {
     opacity: 0.8;
 }
 
-html,
-body,
-#fullscreen {
+html {
     background-color: #adeaf6;
     min-height: 100%;
 }
