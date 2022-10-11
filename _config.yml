@@ -3,7 +3,7 @@ remote_theme: ugjka/ugjka.net-about@theme
 
 # Title and tag line
 title: 'ugjka'
-description: 'gopher, linuxer, truth-lover, woodcutter'
+description: 'gopher, linuxer, truth-lover, woodcutter and Wim Hoffer'
 
 # Images
 avatar: 'avatar.jpg'
@@ -37,8 +37,10 @@ hackernews: 'ugjka'
 #bandcamp: 'ugjka'
 #kofi: 'ugjka'
 spotify: '90bpwbwrqlfzb7st7ngv5sj2h'
+reddit: 'ice-schizo'
+paypal: 'ugjka'
 
-social-links-order: [home, github, dev, arch, hackernews, stackoverflow, bandcamp, soundcloud, spotify, paypal, blog, email]
+social-links-order: [home, github, dev, arch, hackernews, reddit, stackoverflow, bandcamp, soundcloud, spotify, paypal, blog, email]
 
 # Yaml manifest of supported social links
 # Requirements:
