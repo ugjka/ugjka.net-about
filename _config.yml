@@ -1,0 +1,192 @@
+# Theme
+remote_theme: ugjka/ugjka.net-about@theme
+
+# Title and tag line
+title: 'ugjka'
+description: 'gopher, linuxer, truth-lover, woodcutter'
+
+# Images
+avatar: 'avatar.jpg'
+background: 'background.jpg'
+favicon: 'favicon.ico'
+
+# Online profiles
+#dribbble: 'mydribbble'
+#linkedin: 'mylinkedin'
+#pinterest: 'mypinterest'
+#youtube: 'myyoutube'
+github: 'ugjka'
+#gitlab-user: ''
+#codepen: ''
+#steam: ''
+soundcloud: 'ugjka'
+#lastfm: ''
+#stackoverflow: '2846959/ugjka'
+#dev: 'ugjka'
+#reddit: ''
+#rubygems: ''
+#medium:  ''
+#tumblr: 'mytumblr'
+#weibo: 'myweibo'
+#vk: 'myvk'
+blog: 'ugjka.net/blog'
+email: 'esesmu@protonmail.com'
+arch: 'bbs.archlinux.org/search.php?action=show_user_posts&user_id=80779'
+home: 'ugjka.net'
+hackernews: 'ugjka'
+#bandcamp: 'ugjka'
+#kofi: 'ugjka'
+spotify: '90bpwbwrqlfzb7st7ngv5sj2h'
+
+social-links-order: [home, github, dev, arch, hackernews, stackoverflow, bandcamp, soundcloud, spotify, paypal, blog, email]
+
+# Yaml manifest of supported social links
+# Requirements:
+# `name`
+#     - plain-text name of the site (e.g. twitter)
+#     - **mandatory**
+# `url-pattern`
+#     - site URL pattern containing a placeholder string (e.g. twitter.com/__USERNAME__)
+#     - placeholder will be replaced by username or value specified in _config.yml (e.g. twitter.com/mytwitter)
+#     - **mandatory**
+# `url-scheme`
+#     - the hardcoded URI/URN url-scheme (e.g. https://)
+#     - can be one of: ['https://', 'http://', 'mailto:']
+#     - defaults to '//'
+#     - **optional**
+# `icon-class`
+#     - the font awesome icon class names
+#     - font-awesome free and supports `fas` (solid) and `fab` (brands) styles
+#     - defaults to `fab` style and uses value of `name` attribute (e.g. fab fa-2x fa-twitter)
+#     - **optional**
+social-links:
+  - name: facebook
+    url-pattern: facebook.com/__USERNAME__
+    icon-class: fab fa-2x fa-facebook-f
+
+  - name: twitter
+    url-pattern: twitter.com/__USERNAME__
+
+  - name: linkedin
+    url-pattern: linkedin.com/in/__USERNAME__
+
+  - name: google-plus
+    url-pattern: plus.google.com/+__USERNAME__
+
+  - name: vk
+    url-pattern: vk.com/__USERNAME__
+
+  - name: weibo
+    url-pattern: weibo.com/__USERNAME__
+
+  - name: instagram
+    url-pattern: instagram.com/__USERNAME__
+
+  - name: flickr
+    url-pattern: flickr.com/__USERNAME__
+
+  - name: pinterest
+    url-pattern: pinterest.com/__USERNAME__
+
+  - name: github
+    url-pattern: github.com/__USERNAME__
+    icon-class: fab fa-2x fa-github
+
+  - name: gitlab-user
+    url-pattern: gitlab.com/__USERNAME__
+    icon-class: fab fa-2x fa-gitlab
+
+  - name: codepen
+    url-pattern: codepen.com/__USERNAME__
+
+  - name: stackoverflow
+    url-pattern: stackoverflow.com/users/__USERNAME__
+    icon-class: fab fa-2x fa-stack-overflow
+
+  - name: reddit
+    url-pattern: reddit.com/user/__USERNAME__
+
+  - name: rubygems
+    url-pattern: rubygems.org/profiles/__USERNAME__
+    icon-class: far fa-2x fa-gem
+
+  - name: steam
+    url-pattern: steamcommunity.com/id/__USERNAME__
+
+  - name: youtube
+    url-pattern: youtube.com/__USERNAME__
+
+  - name: vimeo
+    url-pattern: vimeo.com/__USERNAME__
+
+  - name: soundcloud
+    url-pattern: soundcloud.com/__USERNAME__
+
+  - name: lastfm
+    url-pattern: last.fm/user/__USERNAME__
+
+  - name: medium
+    url-pattern: medium.com/@__USERNAME__
+
+  - name: tumblr
+    url-pattern: __USERNAME__.tumblr.com
+
+  - name: dribbble
+    url-pattern: dribbble.com/__USERNAME__
+
+  - name: keybase
+    url-pattern: keybase.io/__USERNAME__
+
+  - name: messenger
+    url-pattern: m.me/__USERNAME__
+    icon-class: fab fa-2x fa-facebook-messenger
+
+  - name: telegram
+    url-pattern: telegram.me/__USERNAME__
+
+  - name: snapchat
+    url-pattern: snapchat.com/add/__USERNAME__
+
+  - name: quora
+    url-pattern: www.quora.com/profile/__USERNAME__
+
+  - name: dev
+    url-pattern: dev.to/__USERNAME__
+    icon-class: fab fa-2x fa-dev
+
+  - name: arch
+    url-pattern: __USERNAME__
+    icon-class: fas fa-2x fa-archway
+
+  - name: blog
+    url-pattern: '__USERNAME__'
+    icon-class: fas fa-2x fa-blog
+
+  - name: email
+    url-scheme: 'mailto:'
+    url-pattern: '__USERNAME__'
+    icon-class: far fa-2x fa-envelope-open
+
+  - name: paypal
+    url-pattern: paypal.me/__USERNAME__
+    icon-class: fab fa-2x fa-paypal
+
+  - name: hackernews
+    url-pattern: news.ycombinator.com/user?id=__USERNAME__
+    icon-class: fab fa-2x fa-hacker-news-square
+
+  - name: bandcamp
+    url-pattern: bandcamp.com/__USERNAME__
+    icon-class: fab fa-2x fa-bandcamp
+
+  - name: home
+    url-pattern: __USERNAME__
+    icon-class: fas fa-2x fa-home
+  
+  - name: spotify
+    url-pattern: open.spotify.com/user/__USERNAME__
+    icon-class: fab fa-2x fa-spotify
+
+  - name: kofi
+    url-pattern: ko-fi.com/__USERNAME__
+    icon-class: fas fa-2x fa-mug-hot
