@@ -34,13 +34,15 @@ email: 'esesmu@protonmail.com'
 arch: 'bbs.archlinux.org/search.php?action=show_user_posts&user_id=80779'
 home: 'ugjka.net'
 hackernews: 'ugjka'
-#bandcamp: 'ugjka'
+twitter: 'ugjka_net'
+bandcamp: 'ugjka'
 #kofi: 'ugjka'
 spotify: '90bpwbwrqlfzb7st7ngv5sj2h'
 reddit: 'ice-schizo'
 paypal: 'ugjka'
+instagram: 'ugjkanet'
 
-social-links-order: [home, github, dev, arch, hackernews, reddit, stackoverflow, bandcamp, soundcloud, spotify, paypal, blog, email]
+social-links-order: [home, github, dev, arch, hackernews, reddit, twitter, instagram, stackoverflow, bandcamp, soundcloud, spotify, paypal, blog, email]
 
 # Yaml manifest of supported social links
 # Requirements:
