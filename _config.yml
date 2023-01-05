@@ -2,24 +2,24 @@
 remote_theme: ugjka/ugjka.net-about@theme
 
 # Title and tag line
-title: 'ugjka'
-description: 'gopher, linuxer, truth-lover, woodcutter and Wim Hoffer'
+title: "ugjka"
+description: "gopher, linuxer, truth-lover, woodcutter and cold plunger"
 
 # Images
-avatar: 'avatar.jpg'
-background: 'background.jpg'
-favicon: 'favicon.ico'
+avatar: "avatar.jpg"
+background: "background.jpg"
+favicon: "favicon.ico"
 
 # Online profiles
 #dribbble: 'mydribbble'
 #linkedin: 'mylinkedin'
 #pinterest: 'mypinterest'
 #youtube: 'myyoutube'
-github: 'ugjka'
+github: "ugjka"
 #gitlab-user: ''
 #codepen: ''
 #steam: ''
-soundcloud: 'ugjka'
+soundcloud: "ugjka"
 #lastfm: ''
 #stackoverflow: '2846959/ugjka'
 #dev: 'ugjka'
@@ -29,20 +29,40 @@ soundcloud: 'ugjka'
 #tumblr: 'mytumblr'
 #weibo: 'myweibo'
 #vk: 'myvk'
-blog: 'ugjka.net/blog'
-email: 'ugjka@proton.me'
-arch: 'bbs.archlinux.org/search.php?action=show_user_posts&user_id=80779'
-home: 'ugjka.net'
-hackernews: 'ugjka'
-twitter: 'ugjka_net'
-bandcamp: 'ugjka'
+blog: "ugjka.net/blog"
+email: "ugjka@proton.me"
+arch: "bbs.archlinux.org/search.php?action=show_user_posts&user_id=80779"
+home: "ugjka.net"
+hackernews: "ugjka"
+twitter: "ugjka_net"
+bandcamp: "ugjka"
 #kofi: 'ugjka'
-spotify: '90bpwbwrqlfzb7st7ngv5sj2h'
-reddit: 'ice-schizo'
-instagram: 'ugjkanet'
-mastodon: 'toot.lv/@ugjka'
+spotify: "90bpwbwrqlfzb7st7ngv5sj2h"
+reddit: "ice-schizo"
+instagram: "ugjkanet"
+mastodon: "toot.lv/@ugjka"
+tiktok: ugjka
 
-social-links-order: [home, github, dev, arch, hackernews, reddit, mastodon, twitter, instagram, stackoverflow, bandcamp, soundcloud, spotify, paypal, blog, email]
+social-links-order:
+  [
+    home,
+    github,
+    dev,
+    arch,
+    hackernews,
+    reddit,
+    mastodon,
+    twitter,
+    tiktok,
+    instagram,
+    stackoverflow,
+    bandcamp,
+    soundcloud,
+    spotify,
+    paypal,
+    blog,
+    email,
+  ]
 
 # Yaml manifest of supported social links
 # Requirements:
@@ -163,12 +183,12 @@ social-links:
     icon-class: fas fa-2x fa-archway
 
   - name: blog
-    url-pattern: '__USERNAME__'
+    url-pattern: "__USERNAME__"
     icon-class: fas fa-2x fa-blog
 
   - name: email
-    url-scheme: 'mailto:'
-    url-pattern: '__USERNAME__'
+    url-scheme: "mailto:"
+    url-pattern: "__USERNAME__"
     icon-class: far fa-2x fa-envelope-open
 
   - name: paypal
@@ -186,7 +206,7 @@ social-links:
   - name: home
     url-pattern: __USERNAME__
     icon-class: fas fa-2x fa-home
-  
+
   - name: spotify
     url-pattern: open.spotify.com/user/__USERNAME__
     icon-class: fab fa-2x fa-spotify
@@ -197,4 +217,8 @@ social-links:
 
   - name: mastodon
     url-pattern: __USERNAME__
-    icon-class: fab fa-2x fa-mastodon 
+    icon-class: fab fa-2x fa-mastodon
+
+  - name: tiktok
+    url-pattern: www.tiktok.com/@__USERNAME__
+    icon-class: fab fa-2x fa-tiktok
