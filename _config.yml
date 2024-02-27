@@ -26,11 +26,11 @@ soundcloud: "ugjka"
 #reddit: ''
 #rubygems: ''
 #medium:  ''
-#tumblr: 'mytumblr'
+tumblr: 'ugjka'
 #weibo: 'myweibo'
 #vk: 'myvk'
 blog: "ugjka.net/blog"
-email: "ugjka@proton.me"
+email: "me@ugjka.net"
 arch: "bbs.archlinux.org/search.php?action=show_user_posts&user_id=80779"
 home: "ugjka.net"
 hackernews: "ugjka"
@@ -41,7 +41,7 @@ spotify: "90bpwbwrqlfzb7st7ngv5sj2h"
 #reddit: "ice-schizo"
 #instagram: "ugjkanet"
 mastodon: "toot.lv/@ugjka"
-#tiktok: ugjka
+tiktok: ugjka
 
 social-links-order:
   [
@@ -51,6 +51,7 @@ social-links-order:
     arch,
     hackernews,
     reddit,
+	tumblr,
     mastodon,
     twitter,
     tiktok,
