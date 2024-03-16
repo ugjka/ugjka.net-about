@@ -42,6 +42,8 @@ spotify: "90bpwbwrqlfzb7st7ngv5sj2h"
 #instagram: "ugjkanet"
 mastodon: "toot.lv/@ugjka"
 tiktok: ugjka
+facebook: ugjka
+paypal: ugjka
 
 social-links-order:
   [
@@ -51,10 +53,11 @@ social-links-order:
     arch,
     hackernews,
     reddit,
-	tumblr,
+    tumblr,
     mastodon,
     twitter,
     tiktok,
+    facebook,
     instagram,
     stackoverflow,
     bandcamp,
