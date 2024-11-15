@@ -14,7 +14,7 @@ favicon: "favicon.ico"
 #dribbble: 'mydribbble'
 #linkedin: 'mylinkedin'
 #pinterest: 'mypinterest'
-youtube: '@ugjka'
+youtube: "ugjka"
 github: "ugjka"
 #gitlab-user: ''
 #codepen: ''
@@ -26,7 +26,7 @@ soundcloud: "ugjka"
 #reddit: ''
 #rubygems: ''
 #medium:  ''
-tumblr: 'ugjka'
+tumblr: "ugjka"
 #weibo: 'myweibo'
 #vk: 'myvk'
 blog: "ugjka.net/blog"
@@ -145,7 +145,7 @@ social-links:
     url-pattern: steamcommunity.com/id/__USERNAME__
 
   - name: youtube
-    url-pattern: youtube.com/__USERNAME__
+    url-pattern: youtube.com/@__USERNAME__
 
   - name: vimeo
     url-pattern: vimeo.com/__USERNAME__
