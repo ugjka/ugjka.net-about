@@ -3,7 +3,7 @@ remote_theme: ugjka/ugjka.net-about@theme
 
 # Title and tag line
 title: "UGJKA"
-description: "My name is Uģis, i mess around with Linux, code in Go and do cold plunges in icy water"
+description: "Hacker, forester, advaitin and doing cold plunges"
 
 # Images
 avatar: "avatar.jpg"
@@ -14,7 +14,7 @@ favicon: "favicon.ico"
 #dribbble: 'mydribbble'
 #linkedin: 'mylinkedin'
 #pinterest: 'mypinterest'
-#youtube: 'myyoutube'
+youtube: '@ugjka'
 github: "ugjka"
 #gitlab-user: ''
 #codepen: ''
@@ -30,7 +30,7 @@ tumblr: 'ugjka'
 #weibo: 'myweibo'
 #vk: 'myvk'
 blog: "ugjka.net/blog"
-email: "me@ugjka.net"
+email: "ugis@germanis.lv"
 arch: "bbs.archlinux.org/search.php?action=show_user_posts&user_id=80779"
 home: "ugjka.net"
 hackernews: "ugjka"
@@ -44,6 +44,7 @@ mastodon: "toot.lv/@ugjka"
 tiktok: ugjka
 facebook: ugjka
 paypal: ugjka
+bluesky: ugjka.bsky.social
 
 social-links-order:
   [
@@ -55,8 +56,10 @@ social-links-order:
     reddit,
     tumblr,
     mastodon,
+    bluesky,
     twitter,
     tiktok,
+    youtube,
     facebook,
     instagram,
     stackoverflow,
@@ -226,3 +229,7 @@ social-links:
   - name: tiktok
     url-pattern: www.tiktok.com/@__USERNAME__
     icon-class: fab fa-2x fa-tiktok
+
+  - name: bluesky
+    url-pattern: __USERNAME__
+    icon-class: fab fa-2x fa-bluesky
