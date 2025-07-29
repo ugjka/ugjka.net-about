@@ -3,7 +3,7 @@ remote_theme: ugjka/ugjka.net-about@theme
 
 # Title and tag line
 title: "UGJKA"
-description: "Hacker, forester, advaitin and doing cold plunges"
+description: "Hacker, Linux user, Go programmer, forester, advaitin and doing cold plunges and taking medication to function"
 
 # Images
 avatar: "avatar.jpg"
@@ -21,30 +21,19 @@ github: "ugjka"
 #steam: ''
 soundcloud: "ugjka"
 #lastfm: ''
-#stackoverflow: '2846959/ugjka'
-#dev: 'ugjka'
 #reddit: ''
 #rubygems: ''
-#medium:  ''
-tumblr: "ugjka"
 #weibo: 'myweibo'
 #vk: 'myvk'
 blog: "ugjka.net/blog"
 email: "ugis@germanis.lv"
 arch: "bbs.archlinux.org/search.php?action=show_user_posts&user_id=80779"
 home: "ugjka.net"
-hackernews: "ugjka"
-#twitter: "ugjka_net"
 bandcamp: "ugjka"
-#kofi: 'ugjka'
 spotify: "90bpwbwrqlfzb7st7ngv5sj2h"
-#reddit: "ice-schizo"
-#instagram: "ugjkanet"
-mastodon: "toot.lv/@ugjka"
-tiktok: ugjka
 facebook: ugjka
 paypal: ugjka
-bluesky: ugjka.bsky.social
+ytmusic: "music.youtube.com/channel/UCdKEY0l0WybZwmOEGIgOJOw?si=92naZLV0WTBNw0Y4"
 
 social-links-order:
   [
@@ -63,6 +52,7 @@ social-links-order:
     facebook,
     instagram,
     stackoverflow,
+    ytmusic,
     bandcamp,
     soundcloud,
     spotify,
@@ -233,3 +223,7 @@ social-links:
   - name: bluesky
     url-pattern: __USERNAME__
     icon-class: fab fa-2x fa-bluesky
+
+  - name: ytmusic
+    url-pattern: __USERNAME__
+    icon-class: fas fa-2x fa-music
